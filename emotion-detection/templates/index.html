@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+ 
+  <title>Emotion Detection</title>
+  <!-- Preloader -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <link rel="stylesheet" href="static/css/quick-website.css" id="stylesheet" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+      <!-- Brand -->
+      <!-- <a class="navbar-brand" href="index.html"> Emotion Detector </a> -->
+      <!-- Toggler -->
+    </div>
+  </nav>
+  <!-- Main content -->
+  <section class="slice py-8 bg-dark">
+    <div class="container py-5">
+      <div class="row row-grid align-items-center">
+        <div class="col-lg-8 text-center text-lg-left">
+          <!-- Heading -->
+          <h1 class="text-white mb-4">
+            Speech Emotion Recognition 
+          </h1>
+          <!-- Text -->
+          <p class="lead text-white opacity-8">
+            Understand emotions on your audio files.
+          </p>
+
+
+          <form id="upload-form" enctype="multipart/form-data">
+
+
+            <input type="file" name="voice" id="voice-input" accept="audio/*" />
+
+          </form>
+
+          <button id="predict-btn" class="btn btn-warning btn-lg btn-icon mt-5">
+
+            Check Now
+          </button>
+          <div>
+
+          </div>
+
+          <div id="result" style="color:white;display: flex;justify-content: center;align-items: center;"></div>
+        </div>
+      </div>
+    </div>
+    <!-- SVG separator -->
+
+  </section>
+  <script src="/static/js/main.js">
+
+  </script>
+</body>
+
+</html>
